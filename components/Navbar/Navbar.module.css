@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 3rem;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  cursor: pointer;
+  width: 3rem;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 0.25rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.cartIcon {
+  margin-left: 0.3rem;
+  width: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .cart {
+    font-size: 1rem;
+  }
+
+  .logo {
+    width: 2rem;
+  }
+
+  .cartIcon {
+    width: 1rem;
+  }
+}

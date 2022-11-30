@@ -1,0 +1,44 @@
+.productCard {
+  position: relative;
+  padding: 2rem 4rem;
+  background: #fff;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  border-radius: 0.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .productCard {
+    padding: 2rem;
+  }
+}
+
+.productCard:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.title,
+.price,
+.category {
+  margin: 0.5rem;
+}
+
+.title {
+  margin-top: 1.5rem;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.category {
+  font-size: 0.8rem;
+  background: #f3f3f3;
+  padding: 0.5rem;
+  font-weight: 300;
+}
